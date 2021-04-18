@@ -4,7 +4,7 @@ metadata:
   name: azure-devops-app
   description: ADO Janitor
   tags:
-    - C#
+    - Go
 spec:
   type: service
   lifecycle: production
