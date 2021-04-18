@@ -13,3 +13,4 @@ metadata:
     circleci.com/project-slug: github/example-org/frobs-awesome
 spec:
   type: service
+  lifecycle: production
