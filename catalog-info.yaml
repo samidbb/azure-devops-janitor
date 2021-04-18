@@ -1,16 +1,14 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: frobs-awesome
-  description: |
-    Backend service that implements the Frobs API, as defined
-    in [the Frobs RFC](https://example.com/spec/frob.html).
+  name: Capability-Service
+  description: Handles all metadata surrounding Capabilities
+  namespace: selfservice
   labels:
-    system: frobs
-    lifecycle: production
-    example.com/service-discovery-name: frobsawesome
+    for-public-consumption: no
   annotations:
-    circleci.com/project-slug: github/example-org/frobs-awesome
+    dfds.cloud/auth: okta 
 spec:
-  type: service
-  lifecycle: production
+  type: library
+  lifecycle: experimental
+  owner: players@example.com
