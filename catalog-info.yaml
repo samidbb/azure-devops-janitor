@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: azure-devops-app
+  description: ADO Janitor
+  tags:
+    - C#
+spec:
+  type: service
+  lifecycle: production
+  owner: user:guest
+  system: system-janitor
