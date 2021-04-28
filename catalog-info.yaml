@@ -4,7 +4,7 @@ metadata:
   name: azure
   description: Handles Azure DevOps setup and task
   tags:
-    - go
+    - net
   annotations:
     "backstage.io/kubernetes-id": dice
 spec:
