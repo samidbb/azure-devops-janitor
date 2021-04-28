@@ -7,7 +7,8 @@ metadata:
   labels:
     for-public-consumption: no
   annotations:
-    dfds.cloud/auth: okta 
+    dfds.cloud/auth: okta
+    backstage.io/kubernetes-id: shuffle-api
 spec:
   type: service
   lifecycle: experimental
