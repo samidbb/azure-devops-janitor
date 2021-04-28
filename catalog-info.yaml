@@ -6,7 +6,7 @@ metadata:
   tags:
     - net
   annotations:
-    "backstage.io/kubernetes-id": azureat
+    "backstage.io/kubernetes-id": ado
 spec:
   type: service
   lifecycle: production
