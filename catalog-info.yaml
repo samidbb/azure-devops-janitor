@@ -4,8 +4,8 @@ metadata:
   name: example
   description: example.com
   annotations:
-    backstage.io/kubernetes-id: service
+    backstage.io/kubernetes-id: dice-roller
 spec:
-  type: website
+  type: service
   lifecycle: production
   owner: guest
