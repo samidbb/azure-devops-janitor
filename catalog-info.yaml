@@ -8,7 +8,7 @@ metadata:
     for-public-consumption: no
   annotations:
     dfds.cloud/auth: okta
-    backstage.io/kubernetes-id: dice-roller
+    'backstage.io/kubernetes-id': dice-roller
 spec:
   type: service
   lifecycle: experimental
