@@ -9,6 +9,6 @@ metadata:
   annotations:
     dfds.cloud/auth: okta 
 spec:
-  type: library
+  type: service
   lifecycle: experimental
   owner: players@example.com
