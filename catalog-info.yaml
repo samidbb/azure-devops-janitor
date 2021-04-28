@@ -1,15 +1,11 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Capability-Service
-  description: Handles all metadata surrounding Capabilities
-  namespace: selfservice
-  labels:
-    for-public-consumption: no
+  name: example
+  description: example.com
   annotations:
-    dfds.cloud/auth: okta
-    'backstage.io/kubernetes-id': dice-roller
+    backstage.io/kubernetes-id: service
 spec:
-  type: service
-  lifecycle: experimental
-  owner: players@example.com
+  type: website
+  lifecycle: production
+  owner: guest
