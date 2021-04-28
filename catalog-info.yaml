@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: dice
-  description: It rolls dice
+  description: Handles Azure DevOps setup
   tags:
     - go
   annotations:
