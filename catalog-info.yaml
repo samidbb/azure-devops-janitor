@@ -1,12 +1,12 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: dice-roller
+  name: azure-devops-janitor-api-2
   description: It rolls dice
   tags:
     - go
   annotations:
-    'backstage.io/kubernetes-id': dice-roller
+    'backstage.io/kubernetes-id': developer-automation
 spec:
   type: service
   lifecycle: production
