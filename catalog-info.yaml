@@ -1,12 +1,12 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: dice-roller
+  name: dice
   description: It rolls dice
   tags:
     - go
   annotations:
-    "backstage.io/kubernetes-id":developer-automation
+    "backstage.io/kubernetes-id": dice
 spec:
   type: service
   lifecycle: production
