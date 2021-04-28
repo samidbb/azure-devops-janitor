@@ -6,7 +6,7 @@ metadata:
   tags:
     - net
   annotations:
-    "backstage.io/kubernetes-id": azure
+    "backstage.io/kubernetes-id": azure-automation
 spec:
   type: service
   lifecycle: production
