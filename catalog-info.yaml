@@ -1,12 +1,12 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: azure-devops-janitor-api
-  description: Handles Azure DevOps setup and task
+  name: library-test
+  description: my awsome library
   tags:
     - net
   annotations:
-    "backstage.io/kubernetes-id": azure-devops-janitor-api
+    "backstage.io/kubernetes-id": library-test
 spec:
   type: library
   lifecycle: production
