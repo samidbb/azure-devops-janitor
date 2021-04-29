@@ -6,7 +6,7 @@ metadata:
   tags:
     - javascript
   annotations:
-    "backstage.io/kubernetes-id": azure
+    "backstage.io/kubernetes-id": azure-devops-janitor-api
 spec:
   type: service
   lifecycle: production
